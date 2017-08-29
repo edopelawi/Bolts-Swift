@@ -785,6 +785,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 812DB5271D3597BF00552C9F /* BoltsSwift-iOS.xcconfig */;
 			buildSettings = {
+				SDKROOT = iphoneos10.3;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 			};
 			name = Debug;
 		};
@@ -792,6 +794,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 812DB5271D3597BF00552C9F /* BoltsSwift-iOS.xcconfig */;
 			buildSettings = {
+				SDKROOT = iphoneos10.3;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 			};
 			name = Release;
 		};
